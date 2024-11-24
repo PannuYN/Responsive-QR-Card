@@ -1,0 +1,43 @@
+html, body {
+    height: 100%; /* Make sure both html and body take up the full height of the viewport */
+    margin: 0; /* Remove default margin */
+  }
+  
+  body {
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+    font-family: 'Outfit', sans-serif; /* Apply the Outfit font to the whole body */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  }
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 5px; /* Add some space between card and credit */
+    box-shadow: 5px 5px 25px hsl(218, 44%, 22%, 0.3);
+}
+
+.card-image {
+    max-width: 90%; /* Take only 90% of the card */
+    margin: 5% 5% 0 5%; /* Add margin except on bottom side */
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+}
+
+.fixed-width {
+    width: 70%; /* Default width for small screens */
+}
+
+/* For screens larger than 320px */
+@media (min-width: 319px) {
+    .fixed-width {
+        width: 300px;
+    }
+}
