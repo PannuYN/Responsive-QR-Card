@@ -16,8 +16,8 @@ I made a responsive card with QR image in it with pure HTML and CSS here.
 
 ### Screenshot
 
-![desktop-view](image.png)
-![mobile-view](image-1.png)
+![desktop-view](./result-images/image.png)
+![mobile-view](./result-images/image-1.png)
 
 ### Links
 
